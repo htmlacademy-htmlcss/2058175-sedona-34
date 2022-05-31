@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -37,7 +38,7 @@
             <li class="navigation-item">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden"> Избранное </span>
-                <span> 12 </span>
+                <span class="amount"> 12 </span>
               </a>
             </li>
             <li class="navigation-item">
@@ -79,7 +80,7 @@
           </p>
           <ol class="advantages-list">
             <li class="advantages-item">
-              <div class="card-description">
+              <div class="card-description blue">
                 <h3>Настоящий городок</h3>
                 <span>— №1 —</span>
                 <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
@@ -91,7 +92,7 @@
                 height="384"
               />
               <ul class="advantages-list city-adventages-list">
-                <li class="advantages-item city-adventages-item">
+                <li class="advantages-item city-adventages-item light-blue">
                   <img
                     src="images/adventages/adventage-1.svg"
                     alt="Домик"
@@ -101,7 +102,7 @@
                   <h3>Жильё</h3>
                   <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                 </li>
-                <li class="advantages-item city-adventages-item">
+                <li class="advantages-item city-adventages-item white">
                   <img
                     src="images/adventages/adventage-2.svg"
                     alt="Бургер"
@@ -114,7 +115,7 @@
                     разочаруетесь!
                   </p>
                 </li>
-                <li class="advantages-item city-adventages-item">
+                <li class="advantages-item city-adventages-item light-blue">
                   <img
                     src="images/adventages/adventage-3.svg"
                     alt="Подарок"
@@ -135,26 +136,26 @@
                 width="800"
                 height="384"
               />
-              <div class="card-description">
+              <div class="card-description blue">
                 <h3>Там есть мост дьявола</h3>
                 <span>— №2 —</span>
                 <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
             </li>
 
-            <li class="advantages-item">
+            <li class="advantages-item opacity-blue">
               <h3>Небольшая площадь</h3>
               <span>— №3 —</span>
               <p>Все достопримечательности находятся очень близко</p>
             </li>
 
-            <li class="advantages-item">
+            <li class="advantages-item light-blue">
               <h3>Красивая дорога</h3>
               <span>— №4 —</span>
               <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
 
-            <li class="advantages-item">
+            <li class="advantages-item opacity-blue">
               <h3>Мало туристов</h3>
               <span>— №5 —</span>
               <p>Большинство едет в Гранд Каньон и толпится там</p>
@@ -167,7 +168,7 @@
             Укажите предполагаемые даты поездки, и мы покажем вам лучшие
             предложения гостиниц в Седоне
           </p>
-          <button type="button" class="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+          <button type="button search-button" class="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
         </section>
         <section class="mailing">
           <h2 class="title">Подпишитесь на рассылку</h2>
@@ -189,7 +190,7 @@
               placeholder="Ваш e-mail"
             />
 
-            <button class="button" type="submit">ПОДПИСАТЬСЯ</button>
+            <button class="button mailing-button" type="submit">ПОДПИСАТЬСЯ</button>
           </form>
         </section>
       </main>
@@ -212,7 +213,7 @@
             </a>
           </li>
         </ul>
-        <a class="footer-phone button" href="tel:+78128121212">
+        <a class="footer-phone" href="tel:+78128121212">
           +7 (812) 812-12-12
         </a>
         <a class="footer-contacts-logo" href="https://htmlacademy.ru/">
