@@ -19,6 +19,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
@@ -34,11 +37,6 @@ body {
   background-color: #ffffff;
   margin: 0 auto;
   width: 1200px;
-}
-
-.main-container {
-  display: inherit;
-  flex-direction: inherit;
   flex-grow: 1;
 }
 
