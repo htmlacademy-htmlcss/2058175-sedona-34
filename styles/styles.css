@@ -874,6 +874,12 @@ body {
   margin-bottom: 28px;
 }
 
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
 .range-input-min {
   border-radius: 4px 0 0 4px;
   border-right: 1px solid #ffffff;
@@ -921,7 +927,7 @@ body {
 .range-scale {
   position: relative;
   height: 4px;
-  background-color: rgba(255, 255, 255, 0.511);
+  background-color: #777777;
   cursor: pointer;
 }
 
@@ -1002,7 +1008,6 @@ body {
   line-height: 20px;
   background-color: transparent;
   text-transform: capitalize;
-  /* padding: 0 15px; */
   padding-top: 20px;
   cursor: pointer;
   border: 3px solid transparent;
@@ -1446,6 +1451,7 @@ body {
 .search-form-field::-webkit-outer-spin-button,
 .search-form-field::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  -moz-appearance: textfield;
 }
 
 .field-group-date {
@@ -1493,7 +1499,6 @@ body {
 
 .field:focus {
   outline: 3px solid #83b3d3;
-  /* outline: none; */
 }
 
 .field:active {
