@@ -1184,11 +1184,12 @@ input[type='number'] {
   width: 140px;
   background-color: #756157;
   text-align: center;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   box-sizing: border-box;
   cursor: pointer;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 
 .button-info:hover,
